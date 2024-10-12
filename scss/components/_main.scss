@@ -57,8 +57,30 @@ main {
     }
   }
 
+  .heroExcursiones {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 290px;
+    background-image: url(../img/bodega.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin-bottom: 20px;
+
+    h2 {
+      font-size: 96px;
+      margin: 5px;
+    }
+  }
+
   .intro {
-    background-color: #863F3B;
+    background-color: $color-terciario;
 
     .row {
       .textoIntro {
@@ -76,6 +98,20 @@ main {
         p {
           width: 100%;
           font-size: 16px;
+        }
+      }
+
+      .textoIntroNosotros {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #ffffff;
+        padding-top: 12px;
+
+        p {
+          width: 100%;
+          font-size: 24px;
         }
       }
 
@@ -242,6 +278,77 @@ main {
     }
   }
 
+  .excursiones {
+    .row {
+      .col-md-12 {
+        .sieteColoresImagen {
+          background-image: url(../img/7colores.jpg);
+          background-size: cover;
+          background-position: center;
+          border-radius: 20px;
+          overflow: hidden;
+          color: #ffffff;
+          position: relative;
+          width: 100%;
+          height: 300px;
+          margin-bottom: 25px;
+        }
+
+        .cabalgataImagen {
+          background-image: url(../img/cabalgata.jpg);
+          background-size: cover;
+          background-position: center;
+          border-radius: 20px;
+          overflow: hidden;
+          color: #ffffff;
+          position: relative;
+          width: 100%;
+          height: 300px;
+          margin-bottom: 25px;
+        }
+
+        .raftingImagen {
+          background-image: url(../img/rafting.jpg);
+          background-size: cover;
+          background-position: center;
+          border-radius: 20px;
+          overflow: hidden;
+          color: #ffffff;
+          position: relative;
+          width: 100%;
+          height: 300px;
+          margin-bottom: 25px;
+        }
+
+        .cordilleraImagen {
+          background-image: url(../img/cordillera.jpeg);
+          background-size: cover;
+          background-position: center;
+          border-radius: 20px;
+          overflow: hidden;
+          color: #ffffff;
+          position: relative;
+          width: 100%;
+          height: 300px;
+          margin-bottom: 25px;
+        }
+
+        .senderismoImagen {
+          background-image: url(../img/senderismo2.jpg);
+          background-size: cover;
+          background-position: center;
+          border-radius: 20px;
+          overflow: hidden;
+          color: #ffffff;
+          position: relative;
+          width: 100%;
+          height: 300px;
+          margin-bottom: 25px;
+        }
+      }
+    }
+  }
+
   .actividades {
     margin-top: 20px;
     width: 100%;
@@ -373,6 +480,77 @@ main {
           cursor: pointer;
           font-size: 18px;
           text-decoration: none;
+        }
+      }
+
+      .ubiContactoContenedor {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 30px;
+
+        .ubiContenedor {
+          background-color: #CACACA;
+          border-radius: 20px;
+          padding: 30px;
+        }
+
+        .contactoContenedor {
+          background-color: #CACACA;
+          border-radius: 20px;
+          padding: 30px;
+          font-size: 25px;
+          width: 600px;
+          height: 100%;
+        }
+      }
+
+      .col-md-12 .form-container {
+        background-color: #d3d3d3;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+        h2 {
+          margin-bottom: 20px;
+          color: #333;
+        }
+
+        .form-group {
+          margin-bottom: 15px;
+
+          label {
+            display: block;
+            margin-bottom: 5px;
+            color: #333;
+          }
+
+          input,
+          select,
+          textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+          }
+        }
+
+        form button {
+          background-color: #c64e42;
+          color: #fff;
+          padding: 10px 15px;
+          border: none;
+          border-radius: 5px;
+          font-size: 16px;
+          cursor: pointer;
+
+          :hover {
+            background-color: #a03b34;
+          }
         }
       }
     }

@@ -1,0 +1,17 @@
+$color-principal: #540800;
+$color-secundario: #69221E;
+$color-terciario: #863F3B;
+
+@mixin flex ($flex, $justify, $align, $max-width, $margin) {
+  display: $flex;
+  justify-content: $justify;
+  align-items: $align;
+  max-width: $max-width;
+  margin: $margin;
+}
+
+.footer {
+  .container {
+    @include flex(flex, space-around, 1200px, 0 auto)
+  }
+}

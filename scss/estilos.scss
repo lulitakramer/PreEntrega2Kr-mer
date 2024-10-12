@@ -10,6 +10,8 @@ body {
   font-family: "DM Sans", sans-serif;
 }
 
+@import "./base/funcionalidades";
+@import "./base/generales";
 @import "./base/media";
 @import "./components/header";
 @import "./components/main";
