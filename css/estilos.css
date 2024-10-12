@@ -171,6 +171,25 @@ main .heroBodegas {
     font-size: 96px;
     margin: 5px; }
 
+main .heroExcursiones {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 290px;
+  background-image: url(../img/bodega.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  margin-bottom: 20px; }
+  main .heroExcursiones h2 {
+    font-size: 96px;
+    margin: 5px; }
+
 main .intro {
   background-color: #863F3B; }
   main .intro .row .textoIntro {
@@ -185,6 +204,16 @@ main .intro {
     main .intro .row .textoIntro p {
       width: 100%;
       font-size: 16px; }
+  main .intro .row .textoIntroNosotros {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+    padding-top: 12px; }
+    main .intro .row .textoIntroNosotros p {
+      width: 100%;
+      font-size: 24px; }
   main .intro .row .fotoIntro {
     padding-right: 0%; }
     main .intro .row .fotoIntro img {
@@ -324,6 +353,66 @@ main .bodegas .row .col-md-12 .alfaImagen {
   height: 300px;
   margin-bottom: 25px; }
 
+main .excursiones .row .col-md-12 .sieteColoresImagen {
+  background-image: url(../img/7colores.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  overflow: hidden;
+  color: #ffffff;
+  position: relative;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 25px; }
+
+main .excursiones .row .col-md-12 .cabalgataImagen {
+  background-image: url(../img/cabalgata.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  overflow: hidden;
+  color: #ffffff;
+  position: relative;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 25px; }
+
+main .excursiones .row .col-md-12 .raftingImagen {
+  background-image: url(../img/rafting.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  overflow: hidden;
+  color: #ffffff;
+  position: relative;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 25px; }
+
+main .excursiones .row .col-md-12 .cordilleraImagen {
+  background-image: url(../img/cordillera.jpeg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  overflow: hidden;
+  color: #ffffff;
+  position: relative;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 25px; }
+
+main .excursiones .row .col-md-12 .senderismoImagen {
+  background-image: url(../img/senderismo2.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  overflow: hidden;
+  color: #ffffff;
+  position: relative;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 25px; }
+
 main .actividades {
   margin-top: 20px;
   width: 100%; }
@@ -432,8 +521,61 @@ main .container .row .opina {
     font-size: 18px;
     text-decoration: none; }
 
+main .container .row .ubiContactoContenedor {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 30px; }
+  main .container .row .ubiContactoContenedor .ubiContenedor {
+    background-color: #CACACA;
+    border-radius: 20px;
+    padding: 30px; }
+  main .container .row .ubiContactoContenedor .contactoContenedor {
+    background-color: #CACACA;
+    border-radius: 20px;
+    padding: 30px;
+    font-size: 25px;
+    width: 600px;
+    height: 100%; }
+
+main .container .row .col-md-12 .form-container {
+  background-color: #d3d3d3;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+  main .container .row .col-md-12 .form-container h2 {
+    margin-bottom: 20px;
+    color: #333; }
+  main .container .row .col-md-12 .form-container .form-group {
+    margin-bottom: 15px; }
+    main .container .row .col-md-12 .form-container .form-group label {
+      display: block;
+      margin-bottom: 5px;
+      color: #333; }
+    main .container .row .col-md-12 .form-container .form-group input,
+    main .container .row .col-md-12 .form-container .form-group select,
+    main .container .row .col-md-12 .form-container .form-group textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px; }
+  main .container .row .col-md-12 .form-container form button {
+    background-color: #c64e42;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer; }
+    main .container .row .col-md-12 .form-container form button :hover {
+      background-color: #a03b34; }
+
 .footer {
-  background-color: #762923;
+  background-color: #69221E;
   color: white;
   padding: 20px 0; }
   .footer .container {
